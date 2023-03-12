@@ -1,0 +1,182 @@
+@media screen and (min-width:768px){
+        .hero {
+            background-image: var(--grå),
+            url(../images/hero-bg.jpg);  
+        } 
+      } 
+      @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+    screen and (min-resolution: 192dpi) and (min-width:768px),
+    screen and (min-resolution: 2dppx) and (min-width:768px) {
+    .hero {
+      background-image: var(--grå),
+        url(../images/hero-bg.jpg);
+    }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width:1159px){
+    .container {
+      max-width: 768px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+      .section {
+      padding-top: 112px;
+      padding-bottom: 112px;
+      }
+
+      .mobile-menu-open{
+        display: none;
+      }
+      .mobile-menu {
+        display: none;
+      }
+      .features-list{
+        display: none;
+      }
+      .modal-tablet{
+        position: absolute;
+        min-height: 586px;
+        width: 408px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--modal-bgd-color);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 24px;
+      } 
+
+    .tablet-header-list{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    align-content: center;
+    } 
+
+    .link-mail-post-tablet{
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: color 250ms var(--transition-cubic);
+    }
+    .link-mail-post-tablet:is(:hover,:focus){
+        color:  var(--background-btn-hover);
+      }
+    
+    .phone-number-tablet:is(:hover,:focus){
+        color:  var(--background-btn-hover);
+      }
+
+    .phone-number-tablet{  
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: color 250ms var(--transition-cubic);
+    }
+    
+    .hero-tablet{ 
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--main-title-color);
+        width: 496px;
+        margin: auto;
+        margin-bottom: 40px;
+        }
+        .features-tablet{
+            padding-top: 96px;
+            padding-bottom: 96px;   
+        }
+        
+        .features-header-tablet{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+        margin-bottom: 8px;
+        }
+        .features-text-tablet{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+        width: 356px;
+        height: 72px;
+        }
+        .features-list-tablet{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 72px 24px;
+            justify-content: center;
+        }
+        .team{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        align-content: center;
+        }
+        .team-list{
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        align-items: center;
+        align-content: center;
+        }
+        
+        .customers-list{
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 72px;
+            column-gap: 24px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+          .mobile {
+            display: none;
+          }
+          .subscribe-form{
+            display: flex;
+            gap: 24px; 
+          }
+          .footer-media{
+            display: flex;
+            gap: 24px;
+            justify-content: center;  
+          }
+        
+          .footer-container {
+            flex-direction: column;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 72px;
+            justify-content: center;
+          }
+          
+          .footer-input{
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          border-radius: 4px;
+          min-width: 264px;
+          height: 40px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 2;
+          align-items: center;
+          letter-spacing: 0.04em;
+          color: rgba(255, 255, 255, 0.6);
+          background: var(--second-text-color);
+          padding-left: 16px;
+          }
+            }
