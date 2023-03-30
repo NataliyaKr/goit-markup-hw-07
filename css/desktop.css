@@ -1,0 +1,55 @@
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1158px;
+    }
+    .section,
+    .menu,
+    .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    }
+
+    .menu-icon-box {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    }
+
+    .mobile {
+    padding-bottom: 120px;
+    display: block;
+    }
+
+    .team-card {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .customers-list {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-media {
+        display: flex;
+        gap: 120px;
+    }
+    .footer-container {
+        display: flex;
+        gap: 80px;
+}
+    .footer-content {
+        width: 264px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+    }
+    .subscribe-form {
+        display: flex;
+        gap: 24px;
+}
+}

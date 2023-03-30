@@ -1,0 +1,118 @@
+@media screen and (max-width: 479px) {
+    .footer-input {
+        min-width: 290px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .footer-content {
+        width: 268px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+    .footer-subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-input-title {
+        text-align: center;
+        margin-top: 16px;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        gap: 16px;
+    }
+    .footer-title {
+        text-align: center;
+        margin-top: 72px;
+    }
+    .footer-media-list {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .container {
+        max-width: 428px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section,
+    .menu {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .menu-icon-box {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .footer-content {
+        width: 268px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+    .footer-subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-input-title {
+        text-align: center;
+        margin-top: 16px;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        gap: 16px;
+    }
+    .footer-title {
+        text-align: center;
+        margin-top: 72px;
+    }
+    .footer-media-list {
+        justify-content: center;
+    }
+    .footer-input {
+        min-width: 398px;
+    }
+    
+
+}
