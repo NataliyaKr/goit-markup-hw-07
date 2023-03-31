@@ -19,6 +19,15 @@
     background-color: var(--background-color);
     border-radius: 4px;
     }
+    .menu-list {
+        display: flex;
+    }
+    .menu-title {
+        font-size: 20px;
+    }
+    .menu-item:not(:last-child) {
+    margin-right: 24px;
+}
 
     .mobile {
     padding-bottom: 120px;
@@ -36,17 +45,13 @@
 
     .footer-media {
         display: flex;
-        gap: 120px;
+        gap: 100px;
     }
     .footer-container {
         display: flex;
-        gap: 80px;
 }
     .footer-content {
         width: 264px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 72px;
     }
     .subscribe-form {
         display: flex;

@@ -12,17 +12,23 @@
     padding-top: 96px;
     padding-bottom: 96px;
     }
-    .team-card {
-        flex-basis: calc((100% - 24px) / 2);
-        max-width: 264px;
-    }
 
     .menu-icon-box {
         display: none;
-        flex-direction: row;
+    }
+
+    .menu-list {
+        display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 72px;
+        column-gap: 24px;
+    }
+    .menu-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .team-card {
+        flex-basis: calc((100% - 24px) / 2);
+        max-width: 264px;
     }
 
     .mobile {
@@ -30,17 +36,13 @@
     }
 
     .footer-container {
-        width: 565px;
+        max-width: 565px;
         flex-direction: row;
         flex-wrap: wrap;
         display: flex;
-        gap: 72px;
-        justify-content: flex-start;
     }
     .footer-content {
-        width: 264px;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 264px;
         margin-bottom: 72px;
     }
 
@@ -48,11 +50,5 @@
         display: flex;
         gap: 24px;
     }
-    .footer-media{
-        display: flex;
-        gap: 24px;
-        justify-content: center;  
-    }
-
     
 }
