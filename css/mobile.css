@@ -1,11 +1,24 @@
 @media screen and (max-width: 479px) {
+    .section-1 {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    }
+
+    .hero-title {
+    margin: 0 auto;
+    max-width: 320px;
+    font-size: 36px;
+    }
+    .hero-btn {
+        margin-top: 72px;
+    }
+
     .footer-input {
         min-width: 290px;
     }
     .footer-container {
         display: flex;
         flex-direction: column;
-        gap: 72px;
         align-items: center;
         text-align: center;
         align-content: center;
@@ -17,7 +30,6 @@
         margin-right: auto;
         margin-bottom: 72px;
     }
-
     .footer-text {
         text-align: left;
     }
@@ -27,7 +39,6 @@
     }
     .footer-input-title {
         text-align: center;
-        margin-top: 16px;
     }
     .subscribe-form {
         display: flex;
@@ -39,7 +50,6 @@
     }
     .footer-title {
         text-align: center;
-        margin-top: 72px;
     }
     .footer-media-list {
         justify-content: center;
@@ -64,10 +74,18 @@
         padding-bottom: 96px;
     }
 
+    .hero-title {
+    margin: 0 auto;
+    max-width: 320px;
+    font-size: 36px;
+    }
+    .hero-btn {
+        margin-top: 72px;
+    }
+
     .menu-icon-box {
         display: none;
     }
-    
 
     .mobile {
         display: none;
@@ -76,7 +94,6 @@
     .footer-container {
         display: flex;
         flex-direction: column;
-        gap: 72px;
         align-items: center;
         text-align: center;
         align-content: center;
@@ -88,7 +105,6 @@
         margin-right: auto;
         margin-bottom: 72px;
     }
-
     .footer-text {
         text-align: left;
     }
@@ -98,7 +114,6 @@
     }
     .footer-input-title {
         text-align: center;
-        margin-top: 16px;
     }
     .subscribe-form {
         display: flex;
@@ -110,7 +125,6 @@
     }
     .footer-title {
         text-align: center;
-        margin-top: 72px;
     }
     .footer-media-list {
         justify-content: center;
