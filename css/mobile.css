@@ -4,6 +4,17 @@
     padding-bottom: 112px;
     }
 
+    .mob-soc-list {
+        margin-top: auto;
+    }
+
+    .mob-soc-item {
+        gap: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .hero-title {
     margin: 0 auto;
     max-width: 320px;
@@ -67,11 +78,23 @@
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        flex-direction: column;
     }
     .section,
     .menu {
         padding-top: 96px;
         padding-bottom: 96px;
+    }
+
+    .mob-soc-list {
+        margin-top: auto;
+    }
+    .mob-soc-item {
+        gap: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .hero-title {

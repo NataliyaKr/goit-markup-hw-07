@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) and (max-width:1159px) {
     .container {
-        max-width: 736px;
+        max-width: 768px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
@@ -20,6 +20,10 @@
     .header-list {
         display: flex;
         align-items: center;
+    }
+
+    .address {
+        flex-direction: column;
     }
 
     .header-item {
@@ -72,6 +76,9 @@
     border-radius: 2px;
     background-color: var(--background-btn-hover);
 }
+    .mob-soc-item {
+    display: none;
+}
 
 .regular-text {
     font-size: 16px;
@@ -116,6 +123,11 @@
 
     .mobile {
         display: none;
+    }
+
+    .customers-list {
+        width: 552px;
+        margin: auto;
     }
 
     .footer-container {

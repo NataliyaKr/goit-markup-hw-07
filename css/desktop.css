@@ -69,6 +69,9 @@
     border-radius: 2px;
     background-color: var(--background-btn-hover);
 }
+    .mob-soc-item {
+    display: none;
+}
 
 .regular-text {
     font-size: 16px;
