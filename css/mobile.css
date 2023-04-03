@@ -14,7 +14,7 @@
     .soc-mobile {
     display: flex;
     gap: 35px;
-}
+    }
 
     .hero-title {
     margin: 0 auto;
@@ -24,12 +24,19 @@
     .hero-btn {
         margin-top: 72px;
     }
-
-    .menu-item {
-        margin-bottom: 72px;
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+        align-items: center;
     }
-    .menu-item:not(:last-child) {
-        margin-bottom: 72px;
+
+    .modal {
+        width: 285px;
+        height: auto;
+    }
+    .modal-input {
+        width: 100%;
     }
 
     .footer-input {
@@ -86,8 +93,6 @@
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-        display: flex;
-        flex-direction: column;
     }
     .section,
     .menu {
@@ -113,21 +118,31 @@
     font-size: 36px;
     }
     .hero-btn {
-        margin-top: 72px;
+        margin: 72px auto;
+        width: 169px;
+        height: 56px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .menu-icon-box {
         display: none;
     }
-    .menu-item {
-        margin-bottom: 72px;
-    }
-    .menu-item:not(:last-child) {
-        margin-bottom: 72px;
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+        align-items: center;
     }
 
     .mobile {
         display: none;
+    }
+
+    .modal {
+        width: 392px;
     }
 
     .footer-container {

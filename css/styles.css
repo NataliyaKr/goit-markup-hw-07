@@ -189,8 +189,7 @@ address {
     top: 24px;
     right: 24px;
     border-radius: 50%;
-    border: 1px solid var(--second-text-color);
-    opacity: 0.1;
+    border: 1px solid rgba(0,0,0,0.1);
     align-items: center;
     justify-content: center;
     line-height: 0;

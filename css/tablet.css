@@ -29,7 +29,7 @@
     }
     .contact-list {
         flex-direction: column;
-        padding: 24px 0;
+        padding: 13px 0;
     }
     .header-mail {
         margin-right: 0;
@@ -81,6 +81,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: var(--gra), url(../images/hero-bg-tab-2x.jpeg);
+            background-size: cover;
         }
     }
 
