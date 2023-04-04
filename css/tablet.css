@@ -14,6 +14,7 @@
     }
 
     .header-container {
+        height: 72px;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -29,9 +30,17 @@
     }
     .contact-list {
         flex-direction: column;
-        padding: 13px 0;
+        gap: 12px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
-    .header-mail {
+    .header-mail,
+    .header-tel {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
         margin-right: 0;
     }
 
@@ -98,6 +107,11 @@
         align-items: center;
         gap: 72px 24px;
     }
+    .menu-title {
+        text-align: left;
+        line-height: 1.11;
+        text-transform: capitalize;
+    }
     .menu-item {
         width: calc((100% - 24px) / 2);
         margin-bottom: 0;
@@ -115,6 +129,9 @@
     .customers-list {
         width: 552px;
         margin: auto;
+    }
+    .modal {
+        height: auto;
     }
 
     .footer-container {

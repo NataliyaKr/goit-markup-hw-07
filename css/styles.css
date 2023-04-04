@@ -345,7 +345,7 @@ address {
 
 .menu-title {
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -354,6 +354,7 @@ address {
 }
 
 .menu-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -409,6 +410,7 @@ address {
 .team-card {
     width: 100%;
     max-width: 264px;
+    background: var(--main-title-color);
 }
 
 .team-border {
@@ -607,7 +609,6 @@ address {
 .footer-submit {
     display: flex;
     position: relative;
-    padding-right: 16px;
 }
 
 .footer-input {
@@ -650,7 +651,6 @@ address {
     padding: 8px 24px;
     align-items: center;
     justify-content: center;
-    /* margin-left: 24px; */
     transition: background-color 250ms var(--transition-cubic);
 }
 
@@ -728,6 +728,7 @@ address {
     letter-spacing: 0.04em;
     color: var(--color-check-text);
     display: flex;
+    margin-bottom: 24px;
 }
 
 .link-policy {
@@ -781,7 +782,7 @@ address {
     top: 50%;
     left: 50%;
     width: 408px;
-    height: 576px;
+    height: 584px;
     background-color: var(--modal-bgd-color);
     border-radius: 4px;
     padding: 24px;
@@ -800,6 +801,10 @@ address {
     background-color: var(--accent-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding: 0;
     display: block;
     margin-left: auto;
     margin-bottom: 24px;

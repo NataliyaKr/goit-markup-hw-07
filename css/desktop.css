@@ -95,11 +95,16 @@
         display: flex;
     }
     .menu-title {
+        font-weight: 500;
         font-size: 20px;
+        text-align: left;
+    }
+    .menu-text {
+        font-weight: 400;
     }
     .menu-item:not(:last-child) {
     margin-right: 24px;
-}
+    }
 
     .mobile {
     padding-bottom: 120px;
@@ -113,6 +118,9 @@
     .customers-list {
         padding-left: 0;
         padding-right: 0;
+    }
+    .modal {
+        height: auto;
     }
 
     .footer-container {

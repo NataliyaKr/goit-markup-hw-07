@@ -30,6 +30,24 @@
         row-gap: 72px;
         align-items: center;
     }
+    .menu-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    margin-top: 8px;
+    }
+
+    .menu-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    margin-top: 8px;
+    }
 
     .modal {
         width: 285px;
@@ -143,6 +161,10 @@
 
     .modal {
         width: 392px;
+        height: auto;
+    }
+    .modal-input {
+        width: 100%;
     }
 
     .footer-container {
